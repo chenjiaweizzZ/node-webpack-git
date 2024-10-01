@@ -1,4 +1,5 @@
 import { sum } from "./utils/maths"
+import "./components/div_cpn"
 
 const message = "hello world"
 
