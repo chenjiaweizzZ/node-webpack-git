@@ -1,4 +1,6 @@
 import { sum } from "./utils/maths"
+import { createApp } from "vue"
+import Hello from "./vue_demo/hello.vue"
 import "./components/div_cpn"
 
 const message = "hello world"
@@ -12,3 +14,5 @@ const bar = () => {
 }
 
 bar()
+
+createApp(Hello).mount("#app")
