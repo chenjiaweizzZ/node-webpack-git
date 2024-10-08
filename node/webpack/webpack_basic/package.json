@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "build": "npx webpack --config wk.config.js",
-    "serve": "npx webpack serve --config wk.config.js"
+    "build": "npx webpack --config ./wkconfig/webpack.prod.config.js",
+    "serve": "npx webpack serve --config ./wkconfig/webpack.dev.config.js"
   },
   "devDependencies": {
     "@babel/core": "^7.25.7",
